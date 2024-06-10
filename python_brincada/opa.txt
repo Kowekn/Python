@@ -1,0 +1,32 @@
+a3
+asae2
+aosidj
+33
+dagaj
+
+
+jaiwodja
+
+
+
+bubble
+[5,4,3,2,1] (n-1)**2 = n**2 -2n + 1
+[4,3,2,1,5] 
+[3,2,1,4,5] ele sempre passa por todos os elementos, mesmo q esse ja tenha sido comparado em iteracoes anteriores
+[2,1,3,4,5] 
+[1,2,3,4,5] 
+ 
+
+selection
+[5,4,3,2,1] n**2
+[1,4,3,2,5]
+[1,2,3,4,5] ele escolhe o primeiro elemento, dps compara com todos os outros, o menor escolhido será passado pra primeira posicao
+[1,2,3,4,5] pra segunda posicao ele faz o mesmo, descartando o elemento da primeira posicao e assim adiante
+[1,2,3,4,5] ou seja, passa pela lista de tamanho n, n vezes
+
+insertion
+[5,4,3,2,1] ele escolhe o primeiro elemento com o proximo e ordena de acordo
+[4,5,3,2,1] entao ele comeca a adicionar o elemento seguinte na ordem correta
+[3,4,5,2,1] n**2
+[2,3,4,5,1]
+[1,2,3,4,5]
