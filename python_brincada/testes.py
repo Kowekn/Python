@@ -5,7 +5,7 @@ class classe1 :
         self.idade = idade
         print("opa1")
     
-    def cu(self):
+    def a(self):
         return self.nome + " tem " + self.idade + " de idade" 
 
 class classe2(classe1):
@@ -14,8 +14,8 @@ class classe2(classe1):
         self.pedra = pedra
         print("opa2")
     
-    #def cu(self):
-     #   return classe1.cu(self) + " " + self.pedra
+    #def a(self):
+     #   return classe1.a(self) + " " + self.pedra
        
 
 class classe3(classe1):
@@ -24,14 +24,14 @@ class classe3(classe1):
         self.pena = pena
         print("opa3")
     
-    def cu(self):
-        #return classe1.cu(self) + " " + self.pena
+    def a(self):
+        #return classe1.a(self) + " " + self.pena
         return self.pena
 
 opa1 = classe2("p1", "2", "p3")
 opa2 = classe3("p2", "3", "p4")
-print(opa1.cu())
-print(opa2.cu())
+print(opa1.a())
+print(opa2.a())
 """
 #prices
 """
